@@ -1,0 +1,88 @@
+h1{
+    color:white; 
+}
+
+#Hora {
+    color:black;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px
+}
+
+body{
+    background-size: 100vw 100vh
+    margin:0
+
+}
+
+form{
+    width: 500px;
+    margin:auto;
+    background: rgba(0,0,0,0.3);
+    padding: 10px 20px;
+    box-sizing:border-box;
+    border-radius: 10px;
+    
+}
+
+input, textarea, #boton{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    border:none;
+
+
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background: #ffbf00;
+    color: #fff;
+    padding: 20px
+
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    form{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+
+    }
+}
+
+
+#cargo{
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px
+}
+
+#opciones{
+    width: 100%;
+    margin: auto;
+     box-sizing: border-box;
+    border:none;
+margin-bottom: 10px;
+font-size: 15px
+
+}
+
+#Tipo{
+    width: 100%
+    margin:auto;
+
+
+}
